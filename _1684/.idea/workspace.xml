@@ -4,7 +4,10 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42e98860-bb1b-4bf8-bf56-a4afbd7c08bc" name="Default Changelist" comment="" />
+    <list default="true" id="531cd1e5-acb9-4072-bac1-ec7e476dd865" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_459/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../_459/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,24 +17,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="mlaj25v1" />
+    <option name="directoryName" value="i4dcpfa3" />
   </component>
-  <component name="ProjectId" id="1mStKT7T4MPniLRkPcMJGOhp2Sn" />
+  <component name="ProjectId" id="1mUkMInrjzsBkGtK1UJywLt41GW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../_1684" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="Run _459" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package _459 --bin _459" />
+    <configuration name="Run _1684" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package _1684 --bin _1684" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
@@ -46,7 +48,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Run _459" />
+        <item itemvalue="Cargo.Run _1684" />
       </list>
     </recent_temporary>
   </component>
@@ -56,11 +58,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="42e98860-bb1b-4bf8-bf56-a4afbd7c08bc" name="Default Changelist" comment="" />
-      <created>1609498755238</created>
+      <changelist id="531cd1e5-acb9-4072-bac1-ec7e476dd865" name="Default Changelist" comment="" />
+      <created>1609555507198</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1609498755238</updated>
+      <updated>1609555507198</updated>
     </task>
     <servers />
   </component>
