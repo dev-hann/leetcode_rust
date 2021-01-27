@@ -1,25 +1,30 @@
 fn main() {
-    let res: bool = Solution::repeated_substring_pattern("aba".to_string());
+    let res: bool = Solution::repeated_substring_pattern("ababab".to_string());
 
     println!("{}", res)
 }
 
-struct Solution {}
 
-Not Yet!!
+struct Solution;
+
+// Runtime: 0 ms, faster than 100.00% of Rust online submissions for Repeated Substring Pattern.
+// Memory Usage: 2 MB, less than 75.00% of Rust online submissions for Repeated Substring Pattern.
 impl Solution {
     pub fn repeated_substring_pattern(s: String) -> bool {
         let len = s.len();
-
-        let mut one = "".to_string();
-        for i in 0..len/2 {
-
-            let (one,other) = s.split_at(i);
-           if other.replace(one,"")==""{
-               return true
-           }
+        for i in (1..=len / 2).rev() {
+            ///more faster
+            if len % i != 0 {
+                continue;
+            }
+            //than this
+            ///if len%i==0 {
+            let mut _tmp_str = String::new();
+            let substring = (&s[..i]).clone();
+            if s.eq(&substring.repeat(len / i)) {
+                return true;
+            }
         }
-
         return false;
     }
 }
